@@ -4,8 +4,8 @@
   tasks:
    - name: Download a WAR File to the Tomcat webapps directory to be deployed
      maven_artifact:
-       group_id: com.tcs.angularjs
-       artifact_id: WebApp
+       group_id: com.devops4solutions
+       artifact_id: LoginWebApp
        extension: war
        repository_url: 'http://13.232.186.155:8081/repository/maven-releases/'
        username: admin
