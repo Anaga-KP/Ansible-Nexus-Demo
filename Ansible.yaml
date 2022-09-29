@@ -4,7 +4,7 @@
   tasks:
    - name: Download a WAR File to the Tomcat webapps directory to be deployed
      maven_artifact:
-       group_id: com.devops4solutions
+       group_id: www.devopssolutions
        artifact_id: LoginWebApp
        extension: war
        repository_url: 'http://3.83.158.14:8081/repository/maven-releases/'
