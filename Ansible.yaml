@@ -7,7 +7,7 @@
        group_id: www.devopssolutions
        artifact_id: LoginWebApp
        extension: war
-       repository_url: 'http://3.83.158.14:8081/repository/maven-releases/'
+       repository_url: 'http://13.127.215.50:8081/repository/maven-releases/'
        version: "{{ ArtifactVersion }}"
        username: "{{ username }}"
        password: "{{ password }}"
