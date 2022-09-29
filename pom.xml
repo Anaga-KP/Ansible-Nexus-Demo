@@ -11,11 +11,11 @@
   <distributionManagement>
    <repository>
       <id>nexus-releases</id>
-      <url>http://3.83.158.14:8081/repository/maven-releases/</url>
+      <url>http://13.127.215.50:8081/repository/maven-releases/</url>
    </repository>
    <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://3.83.158.14:8081/repository/maven-snapshots/</url>
+      <url>http://13.127.215.50:8081/repository/maven-snapshots/</url>
    </snapshotRepository> 
   </distributionManagement>
   <dependencies>
