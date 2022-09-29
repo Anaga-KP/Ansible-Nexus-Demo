@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   vars_files:
-    - /etc/ansible/credentials.yaml
+    - /etc/ansible/credentials.yml
   tasks:
    - name: Download a WAR File to the Tomcat webapps directory to be deployed
      maven_artifact:
@@ -14,3 +14,4 @@
        username: "{{ username }}"
        password: "{{ password }}"
        dest: /opt/apache-tomcat-9.0.65/webapps/
+       
