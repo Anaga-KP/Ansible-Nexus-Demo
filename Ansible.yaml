@@ -7,7 +7,7 @@
    - name: Download a WAR File to the Tomcat webapps directory to be deployed
      maven_artifact:
        group_id: www.devopssolutions
-       artifact_id: LoginWebApp
+       artifact_id: LoginApp
        extension: war
        repository_url: 'http://3.110.101.19:8081/repository/maven-releases/'
        version: "{{ ArtifactVersion }}"
