@@ -8,7 +8,7 @@
      maven_artifact:
        group_id: com.devops4solutions
        artifact_id: LoginWebApp
-       version: "{{ ArtifactVersion }}"
+       #version: "{{ ArtifactVersion }}"
        #extension: war
        repository_url: 'http://3.110.168.221:8081/repository/maven-releases/'
        username: "{{ username }}"
